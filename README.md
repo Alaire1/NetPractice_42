@@ -26,6 +26,6 @@
 | Usage                  | Predominantly used                 | Increasing adoption for new networks |
 
 
-##TCP
-**T**tansmission 
+## TCP
+**T**ransmission **C**ontrol **P**rotocol
                                             
