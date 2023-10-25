@@ -27,8 +27,9 @@
 | Usage                  | Predominantly used                 | Increasing adoption for new networks |
 
 
+
 ## TCP
 **T**ransmission **C**ontrol **P**rotocol
 
--connection-oriented communication protocol in computer networking. It ensures reliable and ordered data transmission between devices by establishing and managing connections, performing error-checking, and retransmitting lost data when necessary. TCP is part of the Internet Protocol suite and is widely used for applications like web browsing, email, and file transfers.
+- connection-oriented communication protocol in computer networking. It ensures reliable and ordered data transmission between devices by establishing and managing connections, performing error-checking, and retransmitting lost data when necessary. TCP is part of the Internet Protocol suite and is widely used for applications like web browsing, email, and file transfers.
                                             
