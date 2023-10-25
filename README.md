@@ -24,3 +24,13 @@
 | Header Complexity      | Variable header lengths            | Fixed-length headers          |
 | Security Features      | IPsec is optional                  | IPsec is integral to the protocol |
 | Usage                  | Predominantly used                 | Increasing adoption for new networks |
+
+
+##TCP
+\                                         -----------
+                        <----------       ||       ||  
+                        ----------->      ||       ||
+                                          -----------
+                                              | |
+                                             -----
+                                            
