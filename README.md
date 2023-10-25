@@ -10,6 +10,7 @@
 - **IoT and IP:** The Internet of Things (IoT) relies on IP addresses for connected devices and sensors to communicate and share data over the internet.
 - **Data Security:** IP addresses play a critical role in network security, helping to identify and control data traffic, including the use of firewalls and intrusion detection systems.
 
+
 ### IPv4 and IPv6 diffenences
   
 | Feature                | IPv4                               | IPv6                           |
@@ -28,4 +29,6 @@
 
 ## TCP
 **T**ransmission **C**ontrol **P**rotocol
+
+-connection-oriented communication protocol in computer networking. It ensures reliable and ordered data transmission between devices by establishing and managing connections, performing error-checking, and retransmitting lost data when necessary. TCP is part of the Internet Protocol suite and is widely used for applications like web browsing, email, and file transfers.
                                             
