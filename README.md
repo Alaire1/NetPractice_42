@@ -49,8 +49,11 @@
 ## SUBNETTING
 
 ### IP Subnet Masks (IPv4)
-- Subnet masks are used in IPv4 to define network boundaries by indicating how many bits in an IP address represent the network portion and how many bits represent the host portion. Subnet masks are essential for routing and segmenting IP networks, allowing devices to communicate within the same network and routing data between different networks.
+- Subnet masks are used in IPv4 to define network boundaries by indicating how many bits in an IP address represent the network portion and how many bits represent the host portion. Subnet masks are essential for routing and segmenting IP networks, allowing devices to communicate within the same network and routing data between different networks.<br>
 
+  Masks can be written in two ways:
+-"Dot-decimal notation": 255.255.255.0
+-"Class Inter-Domain Routing" or "CIDR": /24
 
 | Subnet Mask       | CIDR Notation | IP Addresses count / (usable)|
 |-------------------|---------------|----------------------|
