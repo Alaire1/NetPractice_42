@@ -32,4 +32,15 @@
 **T**ransmission **C**ontrol **P**rotocol
 
 - connection-oriented communication protocol in computer networking. It ensures reliable and ordered data transmission between devices by establishing and managing connections, performing error-checking, and retransmitting lost data when necessary. TCP is part of the Internet Protocol suite and is widely used for applications like web browsing, email, and file transfers.
-                                            
+
+## 3 steps of conection flow
+1. Connection estabilishment (Three-way handshake)
+   - SYN
+   - SYN-ACK
+   - ACK
+2. Data transfer
+3. Connection Termination
+   - FIN
+   - ACK
+   - FIN
+   - ACK
