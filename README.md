@@ -11,7 +11,7 @@
 - **Data Security:** IP addresses play a critical role in network security, helping to identify and control data traffic, including the use of firewalls and intrusion detection systems.
 <br>
 
-### IPv4 and IPv6 diffenences
+### IPv4 and IPv6 differences
   
 | Feature                | IPv4                               | IPv6                           |
 |------------------------|------------------------------------|-------------------------------|
