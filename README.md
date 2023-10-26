@@ -52,14 +52,24 @@
 - Subnet masks are used in IPv4 to define network boundaries by indicating how many bits in an IP address represent the network portion and how many bits represent the host portion. Subnet masks are essential for routing and segmenting IP networks, allowing devices to communicate within the same network and routing data between different networks.
 
 
-| CIDR | Dot-decimal | Number of IP-addresses<br /> per subnet | Usable IP-addresses <br /> per subnet | Number of subnets |
-| :---: | :-----------: | :---: | :---: | :---: |
-| /32 | 255.255.255.255 | 1 | 0 | 256 |
-| /31 | 255.255.255.254 | 2 | 0 | 128 |
-| /30 | 255.255.255.252 | 4 | 2 | 64 |
-| /29 | 255.255.255.248 | 8 | 6 | 32 |
-| /28 | 255.255.255.240 | 16 | 14 | 16 |
-| /27 | 255.255.255.224 | 32 | 30 | 8 |
-| /26 | 255.255.255.192 | 64 | 62 | 4 |
-| /25 | 255.255.255.128 | 128 | 126 | 2 |
-| /24 | 255.255.255.0 | 256 | 254 | 1 |
+| Subnet Mask       | CIDR Notation | Usable IP Addresses |
+|-------------------|---------------|----------------------|
+| 255.255.255.255   | /32           | 1                    |
+| 255.255.255.254   | /31           | 2                    |
+| 255.255.255.252   | /30           | 2                    |
+| 255.255.255.248   | /29           | 6                    |
+| 255.255.255.240   | /28           | 14                   |
+| 255.255.255.224   | /27           | 30                   |
+| 255.255.255.192   | /26           | 62                   |
+| 255.255.255.128   | /25           | 126                  |
+| 255.255.255.0     | /24           | 254                  |
+| 255.255.254.0     | /23           | 510                  |
+| 255.255.252.0     | /22           | 1022                 |
+| 255.255.248.0     | /21           | 2046                |
+| 255.255.240.0     | /20           | 4094                |
+| 255.255.224.0     | /19           | 8190                 |
+| 255.255.192.0     | /18           | 16382                |
+| 255.255.128.0     | /17           | 32766                |
+| 255.255.0.0       | /16           | 65534                |
+| 255.254.0.0       | /15           | 131070               |
+------------------------------------------------------------
