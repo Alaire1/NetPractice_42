@@ -52,18 +52,18 @@
 - Subnet masks are used in IPv4 to define network boundaries by indicating how many bits in an IP address represent the network portion and how many bits represent the host portion. Subnet masks are essential for routing and segmenting IP networks, allowing devices to communicate within the same network and routing data between different networks.
 
 
-| Subnet Mask       | CIDR Notation | Usable IP Addresses |
+| Subnet Mask       | CIDR Notation | IP Addresses count / usable|
 |-------------------|---------------|----------------------|
-| 255.255.255.255   | /32           | 1                    |
+| 255.255.255.255   | /32           | 1                (0)               |
 | 255.255.255.254   | /31           | 2                    |
-| 255.255.255.252   | /30           | 2                    |
-| 255.255.255.248   | /29           | 6                    |
-| 255.255.255.240   | /28           | 14                   |
-| 255.255.255.224   | /27           | 30                   |
-| 255.255.255.192   | /26           | 62                   |
-| 255.255.255.128   | /25           | 126                  |
-| 255.255.255.0     | /24           | 254                  |
-| 255.255.254.0     | /23           | 510                  |
+| 255.255.255.252   | /30           | 4                   |
+| 255.255.255.248   | /29           | 8                    |
+| 255.255.255.240   | /28           | 16                   |
+| 255.255.255.224   | /27           | 32                   |
+| 255.255.255.192   | /26           | 64                   |
+| 255.255.255.128   | /25           | 128                  |
+| 255.255.255.0     | /24           | 256                  |
+| 255.255.254.0     | /23           | 512                 |
 | 255.255.252.0     | /22           | 1022                 |
 | 255.255.248.0     | /21           | 2046                |
 | 255.255.240.0     | /20           | 4094                |
