@@ -46,5 +46,6 @@
    - ACK
 
 ## Subnetting
+
 ### IP Subnet Masks (IPv4)
 - Subnet masks are used in IPv4 to define network boundaries by indicating how many bits in an IP address represent the network portion and how many bits represent the host portion. Subnet masks are essential for routing and segmenting IP networks, allowing devices to communicate within the same network and routing data between different networks.
