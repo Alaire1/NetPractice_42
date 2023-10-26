@@ -33,7 +33,7 @@
 
 - connection-oriented communication protocol in computer networking. It ensures reliable and ordered data transmission between devices by establishing and managing connections, performing error-checking, and retransmitting lost data when necessary. TCP is part of the Internet Protocol suite and is widely used for applications like web browsing, email, and file transfers.
 
-## 3 steps of conection flow
+## 3 steps of conNection process
 1. Connection estabilishment (Three-way handshake)
    - SYN
    - SYN-ACK
@@ -44,3 +44,7 @@
    - ACK
    - FIN
    - ACK
+
+## Subnetting
+### IP Subnet Masks (IPv4)
+- Subnet masks are used in IPv4 to define network boundaries by indicating how many bits in an IP address represent the network portion and how many bits represent the host portion. Subnet masks are essential for routing and segmenting IP networks, allowing devices to communicate within the same network and routing data between different networks.
