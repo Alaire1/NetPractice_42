@@ -9,7 +9,7 @@
 - **Network Troubleshooting:** IP addresses are essential for diagnosing network issues through tools like ping and traceroute.
 - **IoT and IP:** The Internet of Things (IoT) relies on IP addresses for connected devices and sensors to communicate and share data over the internet.
 - **Data Security:** IP addresses play a critical role in network security, helping to identify and control data traffic, including the use of firewalls and intrusion detection systems.
-
+<br>
 
 ### IPv4 and IPv6 diffenences
   
@@ -25,7 +25,7 @@
 | Header Complexity      | Variable header lengths            | Fixed-length headers          |
 | Security Features      | IPsec is optional                  | IPsec is integral to the protocol |
 | Usage                  | Predominantly used                 | Increasing adoption for new networks |
-
+<br>
 
 
 ## TCP
@@ -50,12 +50,15 @@
 ### IP Subnet Masks (IPv4)
 - Subnet masks are used in IPv4 to define network boundaries by indicating how many bits in an IP address represent the network portion and how many bits represent the host portion. Subnet masks are essential for routing and segmenting IP networks, allowing devices to communicate within the same network and routing data between different networks.
 
-- `255 (binary: 11111111)`
-- `254 (binary: 11111110)`
-- `252 (binary: 11111100)`
-- `248 (binary: 11111000)`
-- `240 (binary: 11110000)`
-- `224 (binary: 11100000)`
-- `192 (binary: 11000000)`
-- `128 (binary: 10000000)`
-- `0 (binary: 00000000)`
+
+| CIDR | Dot-decimal | Number of IP-addresses<br /> per subnet | Usable IP-addresses <br /> per subnet | Number of subnets |
+| :---: | :-----------: | :---: | :---: | :---: |
+| /32 | 255.255.255.255 | 1 | 0 | 256 |
+| /31 | 255.255.255.254 | 2 | 0 | 128 |
+| /30 | 255.255.255.252 | 4 | 2 | 64 |
+| /29 | 255.255.255.248 | 8 | 6 | 32 |
+| /28 | 255.255.255.240 | 16 | 14 | 16 |
+| /27 | 255.255.255.224 | 32 | 30 | 8 |
+| /26 | 255.255.255.192 | 64 | 62 | 4 |
+| /25 | 255.255.255.128 | 128 | 126 | 2 |
+| /24 | 255.255.255.0 | 256 | 254 | 1 |
