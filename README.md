@@ -89,7 +89,7 @@ For example, to obtain the CIDR notation of the subnet mask `255.255.255.0`, you
 - Append this number to the IP address, using a slash (/) as a separator: `192.168.0.0/24`
 
 ## LEVELS
-
+- soltions and explantions of levels from 1 to 10
 <details>
   <summary>Level 1</summary>
 
