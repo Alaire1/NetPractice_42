@@ -102,7 +102,9 @@ Masks can be written in two ways:
 | 192.168.0.128 | 192.168.0.159 | 192.168.0.129 - 192.168.0.158 |
 | 192.168.0.160 | 192.168.0.191 | 192.168.0.161 - 192.168.0.190 |
 | 192.168.0.192 | 192.168.0.223 | 192.168.0.193 - 192.168.0.222 |
-| 192.168.0.224 | 192.168.0.255 | 192.168.0.225 - 192.168.0.254 |<br>
+| 192.168.0.224 | 192.168.0.255 | 192.168.0.225 - 192.168.0.254 |
+------------------------------------------------------------------
+<br>
 The other adress on the same subnetwork of IP `192.168.150.222` has 222 at the end, so in order to fit in the range we are taking 255 and substracting 32, which is giving us number 223(the broadcast number of rage below) we see the number 222 from IP is less so we know it belong to that range, so for the second IP we can choose as the last number any number between 222-193 , but as we see 222 is taken so we cannot use that one
  
 </details>
