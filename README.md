@@ -95,15 +95,15 @@ Masks can be written in two ways:
   **1.** We have to copy the mask of the connected device which is `255.255.255.224` or `/27` in CIDR notation. That means we have 30 usable last numbers to choose. What are the ranges, I will show it with a table:<br>
 | Network Address | Broadcast Address | Usable Host Addresses |
 |---|---|---|
-| 192.168.0.0 | 192.168.0.31 | 192.168.0.1 - 192.168.0.29 |
-| 192.168.0.32 | 192.168.0.63 | 192.168.0.33 - 192.168.0.61 |
-| 192.168.0.64 | 192.168.0.95 | 192.168.0.65 - 192.168.0.93 |
-| 192.168.0.96 | 192.168.0.127 | 192.168.0.97 - 192.168.0.125 |
-| 192.168.0.128 | 192.168.0.159 | 192.168.0.129 - 192.168.0.157 |
-| 192.168.0.160 | 192.168.0.191 | 192.168.0.161 - 192.168.0.189 |
-| 192.168.0.192 | 192.168.0.223 | 192.168.0.193 - 192.168.0.221 |
-| 192.168.0.224 | 192.168.0.255 | 192.168.0.225 - 192.168.0.253 |
-
+| 192.168.0.0 | 192.168.150.31 | 192.168.0.1 - 192.168.0.29 |
+| 192.168.0.32 | 192.168.150.63 | 192.168.0.33 - 192.168.0.61 |
+| 192.168.0.64 | 192.168.150.95 | 192.168.0.65 - 192.168.0.93 |
+| 192.168.0.96 | 192.168.150.127 | 192.168.0.97 - 192.168.0.125 |
+| 192.168.0.128 | 192.168.150.159 | 192.168.0.129 - 192.168.0.157 |
+| 192.168.0.160 | 192.168.150.191 | 192.168.0.161 - 192.168.0.189 |
+| 192.168.0.192 | 192.168.150.223 | 192.168.0.193 - 192.168.0.221 |
+| 192.168.0.224 | 192.168.150.255 | 192.168.0.225 - 192.168.0.253 |
+The other adress on the same subnetwork of IP `192.168.150.222` has 222 at the end, so in order to fit in the range we are taking 255 and substracting 32, which is giving us number 223(the broadcast number of rage below) we see the number 222 from IP is less so we know it belong to that range, so for the second IP we can choose as the last number any number between 221-
  
 </details>
 
