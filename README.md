@@ -84,15 +84,26 @@ Masks can be written in two ways:
   <summary>Level 1</summary>
 
   ![Level 1](https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level1.png)<br>
-  **1.** Mask here is given, so three fist numbers will stay the same as the Interface B1 has `104.98.23.12` all we can do is to chanage the last one to the number between 1-254, except 12 as it is already used.
-  **2.** Situation is the same as in the above example, we are writing the same 3 numbers and changing last one to some any number betwen 1 and 254, except 75.
+  **1.** Mask here is given, so three first numbers will stay the same as the Interface B1 has `104.98.23.12` all we can do is to chanage the last one to the number between 1-254, except 12 as it is already used.<br>
+  **2.** Situation is similar, but mask `255.255.0.0` indicates we can change the third number to any between 0-255 and the last one to any between 1-254, except 17. Why we have 2 numbers more to choose for the third number? Beacuse the last 
 </details>
 
 <details>
   <summary>Level 2</summary>
 
   ![Level 1](img link)<br>
-  hghghh
+  **1.** We have to copy the mask of the connected device which is `255.255.255.224` or `/27` in CIDR notation. That means we have 30 usable last numbers to choose. What are the ranges, I will show it with a table:<br>
+| Network Address | Broadcast Address | Usable Host Addresses |
+|---|---|---|
+| 192.168.0.0 | 192.168.0.31 | 192.168.0.1 - 192.168.0.29 |
+| 192.168.0.32 | 192.168.0.63 | 192.168.0.33 - 192.168.0.61 |
+| 192.168.0.64 | 192.168.0.95 | 192.168.0.65 - 192.168.0.93 |
+| 192.168.0.96 | 192.168.0.127 | 192.168.0.97 - 192.168.0.125 |
+| 192.168.0.128 | 192.168.0.159 | 192.168.0.129 - 192.168.0.157 |
+| 192.168.0.160 | 192.168.0.191 | 192.168.0.161 - 192.168.0.189 |
+| 192.168.0.192 | 192.168.0.223 | 192.168.0.193 - 192.168.0.221 |
+| 192.168.0.224 | 192.168.0.255 | 192.168.0.225 - 192.168.0.253 |
+
  
 </details>
 
