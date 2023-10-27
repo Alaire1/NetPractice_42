@@ -84,8 +84,8 @@ Masks can be written in two ways:
   <summary>Level 1</summary>
 
   ![Level 1](https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level1.png)<br>
-  hghghh
- 
+  **1.** Mask here is given, so three fist numbers will stay the same as the Interface B1 has `104.98.23.12` all we can do is to chanage the last one to the number between 1-254, except 12 as it is already used.
+  **2.** Situation is the same as in the above example, we are writing the same 3 numbers and changing last one to some any number betwen 1 and 254, except 75.
 </details>
 
 <details>
@@ -124,7 +124,7 @@ Masks can be written in two ways:
   <summary>Level 6</summary>
 
   ![Level 1](img link)<br>
-  hghghh
+  
  
 </details>
 
