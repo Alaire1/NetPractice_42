@@ -78,6 +78,17 @@ Masks can be written in two ways:
 ------------------------------------------------------------
 <br>
 
+### How to get the CIDR notation number of a mask?
+
+1. Convert the subnet mask to binary.
+2. Count the number of contiguous 1s in the binary representation of the subnet mask.
+3. Append this number to the IP address, using a slash (/) as a separator.
+For example, to obtain the CIDR notation of the subnet mask 255.255.255.0, you would follow these steps:
+
+- Convert the subnet mask to binary: 11111111.11111111.11111111.00000000
+- Count the number of contiguous 1s in the binary representation of the subnet mask: 24
+- Append this number to the IP address, using a slash (/) as a separator: 192.168.0.0/24
+
 ## LEVELS
 
 <details>
