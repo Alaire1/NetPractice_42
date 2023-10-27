@@ -106,8 +106,8 @@ Masks can be written in two ways:
 
 <br>
 
-The other adress on the same subnetwork of IP `192.168.150.222` has 222 at the end, so in order to fit in the range we are taking 255 and substracting 32, which is giving us number 223(the broadcast number of rage below) we see the number 222 from IP is less so we know it belong to that range, so for the second IP we can choose as the last number any number between 222-193 , but as we see 222 is taken so we cannot use that one
- 
+The other adress on the same subnetwork of IP `192.168.150.222` has `222` at the end, so in order to fit in the range we are taking `255` and substracting `32`, which is giving us number `223`(the broadcast number of rage below) we see the number `222` from IP is less so we know it belong to that range, so for the second IP we can choose as the last number any number between `222-193` , but as we see `222` is taken so we cannot use that one
+
 </details>
 
 <details>
