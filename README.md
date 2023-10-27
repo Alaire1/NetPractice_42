@@ -179,7 +179,8 @@ The other adress on the same subnetwork of IP `192.168.150.222` has `222` at the
 <details>
   <summary>Level 10</summary>
 
-  ![Level 1](img link)<br>
-  hghghh
+  ![Level 10](img link)<br>
+  **1.**(Interface R23)
+  I think the best way is to start from the bottom /somewhere on the borders, so that's what I am doing.
  
 </details>
