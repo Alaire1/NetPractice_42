@@ -83,7 +83,7 @@ Masks can be written in two ways:
 <details>
   <summary>Level 1</summary>
 
-  ![Level 1]((https://github.com/Alaire1/netPractice/blob/main/images/level1.png)<br>
+  ![Level 1](https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level1.png)<br>
   hghghh
  
 </details>
