@@ -93,7 +93,7 @@ For example, to obtain the CIDR notation of the subnet mask `255.255.255.0`, you
 <details>
   <summary>Level 1</summary>
 
-  ![Level 1](https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level1.png)<br>
+  ![Level 1](https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level1_num.png)<br>
   **1.** Mask here is given, so three first numbers will stay the same as the Interface B1 has `104.98.23.12` all we can do is to chanage the last one to the number between 1-254, except 12 as it is already used.<br>
   **2.** Situation is similar, but mask `255.255.0.0` indicates we can change the third number to any between 0-255 and the last one to any between 1-254, except 17. Why we have 2 numbers more to choose for the third number? Beacuse the last 
 </details>
@@ -101,7 +101,7 @@ For example, to obtain the CIDR notation of the subnet mask `255.255.255.0`, you
 <details>
   <summary>Level 2</summary>
 
-  ![Level 1](img link)<br>
+  ![Level 2]((https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level2_num.png))<br>
   **1.** We have to copy the mask of the connected device which is `255.255.255.224` or `/27` in CIDR notation. That means we have 30 usable last numbers to choose. What are the ranges, I will show it with a table:<br>
 | Network Address | Broadcast Address | Usable Host Addresses |
 |---|---|---|
@@ -123,7 +123,7 @@ The other adress on the same subnetwork of IP `192.168.150.222` has `222` at the
 <details>
   <summary>Level 3</summary>
 
-  ![Level 1](img link)<br>
+  ![Level 3](https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level3_num.png)<br>
   hghghh
  
 </details>
@@ -131,7 +131,7 @@ The other adress on the same subnetwork of IP `192.168.150.222` has `222` at the
 <details>
   <summary>Level 4</summary>
 
-  ![Level 1](img link)<br>
+  ![Level 4](https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level4_num.png)<br>
   hghghh
  
 </details>
@@ -139,7 +139,7 @@ The other adress on the same subnetwork of IP `192.168.150.222` has `222` at the
 <details>
   <summary>Level 5</summary>
 
-  ![Level 1](img link)<br>
+  ![Level 5](https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level5_num.png)<br>
   hghghh
  
 </details>
@@ -147,7 +147,7 @@ The other adress on the same subnetwork of IP `192.168.150.222` has `222` at the
 <details>
   <summary>Level 6</summary>
 
-  ![Level 1](img link)<br>
+  ![Level 6](https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level6_num.png)<br>
   
  
 </details>
@@ -155,7 +155,7 @@ The other adress on the same subnetwork of IP `192.168.150.222` has `222` at the
 <details>
   <summary>Level 7</summary>
 
-  ![Level 1](img link)<br>
+  ![Level 7](https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level7_nbr.png)<br>
   hghghh
  
 </details>
@@ -163,7 +163,7 @@ The other adress on the same subnetwork of IP `192.168.150.222` has `222` at the
 <details>
   <summary>Level 8</summary>
 
-  ![Level 1](img link)<br>
+  ![Level 8](https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level8_num.png)<br>
   hghghh
  
 </details>
@@ -171,7 +171,7 @@ The other adress on the same subnetwork of IP `192.168.150.222` has `222` at the
 <details>
   <summary>Level 9</summary>
 
-  ![Level 1](img link)<br>
+  ![Level 9](https://github.com/Alaire1/netPractice/blob/main/images/level9_num.png)<br>
   hghghh
  
 </details>
@@ -179,7 +179,7 @@ The other adress on the same subnetwork of IP `192.168.150.222` has `222` at the
 <details>
   <summary>Level 10</summary>
 
-  ![Level 10](img link)<br>
+  ![Level 10](https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level10_num.png)<br>
   **1.**(Interface R23)
   I think the best way is to start from the bottom /somewhere on the borders, so that's what I am doing.
  
