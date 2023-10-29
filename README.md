@@ -101,7 +101,7 @@ For example, to obtain the CIDR notation of the subnet mask `255.255.255.0`, you
 <details>
   <summary>Level 2</summary>
 
-  ![Level 2]((https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level2_num.png))<br>
+  ![Level 2](https://raw.githubusercontent.com/Alaire1/netPractice/main/images/level2_num.png)<br>
   **1.** We have to copy the mask of the connected device which is `255.255.255.224` or `/27` in CIDR notation. That means we have 30 usable last numbers to choose. What are the ranges, I will show it with a table:<br>
 | Network Address | Broadcast Address | Usable Host Addresses |
 |---|---|---|
